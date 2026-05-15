@@ -8,7 +8,6 @@ export default function Navbar(params) {
       </h2>
       <Link className="flex h-10 w-full items-center justify-center gap-2 rounded-md px-5 text-white text-sm transition-colors hover:bg-[#383838] dark:hover:bg-zinc-800 md:w-[158px]" href={"/"}>Inicio</Link>
       <Link className="flex h-10 w-full items-center justify-center gap-2 rounded-md px-5 text-white text-sm  transition-colors hover:bg-[#383838] dark:hover:bg-zinc-800 md:w-[158px]" href={"/notes"}>Notes</Link>
-      <Link className="flex h-10 w-full items-center justify-center gap-2 rounded-md px-5 text-white text-sm  transition-colors hover:bg-[#383838] dark:hover:bg-zinc-800 md:w-[158px]" href={"/notes/create"}>Create</Link>
       <Link className="flex h-10 w-full items-center justify-center gap-2 rounded-md px-5 text-white text-sm  transition-colors hover:bg-[#383838] dark:hover:bg-zinc-800 md:w-[158px]" href={"/about"}>Perfil</Link>
       <Link className="flex h-10 w-full items-center justify-center gap-2 rounded-md px-5 text-white text-sm  transition-colors hover:bg-[#383838] dark:hover:bg-zinc-800 md:w-[158px]" href={"/todolist"}>Lista de tareas</Link>
     </nav>

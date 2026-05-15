@@ -99,7 +99,7 @@ export default async function Page() {
   },
 ]
 
-export const categorias = [
+export const categories = [
   {id: 1, title: "Componentes", notes: ["Componentes de servidor", "Componentes de cliente"]},
   {id: 2, title: "Rutas", notes: ["Rutas", "Rutas dinamicas", "Rutas anidadas"]},
   {id: 3, title: "Layouts", notes: ["Layout root", "Layout anidado"]},
@@ -109,3 +109,10 @@ export const getNotes = () => notes
 
 export const getNoteById = (id) => 
   notes.find((note) => note.id === id)
+
+export const getCategories = () => {
+  return categories.map((category) => ({
+    ...category, //spread operator
+
+  }))
+}
