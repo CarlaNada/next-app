@@ -10,7 +10,7 @@ function page() {
             &larr; Back to Notes
         </Link>
         
-        <p className='text-white text-lg font-senibold'>Create Note</p>
+        <p className='text-white text-lg font-semibold'>Create Note</p>
 
         <input type="text" placeholder='Title' className='p-2 border border-zinc-600 rounded-md my-4' name="" id="" />
         <textarea placeholder='Content' className='p-2 border border-zinc-600 rounded-md my-4' rows={10} name="" id=""></textarea>

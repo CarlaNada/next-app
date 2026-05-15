@@ -14,23 +14,26 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tarea: App de Notas con Next.js
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Seguir mejorando la aplicación que venimos haciendo en clase.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Las tareas a realizar en el proyecto de Next.js:
+1. Configuración de Rutas
+Crear y configurar dentro del directorio app:
+    - Una ruta nueva
+    - Una ruta anidada nueva
+    - Una ruta dinámica nueva (que pueda leer los parámetros de la URL) 
+Nota: Usar el componente Link de Next.js para toda la navegación entre estas nuevas rutas y las existentes.
 
-## Learn More
+2. Personalización del Layout
+    - Modifica el archivo del layout principal (app/layout.js) para incluir nuevos elementos visibles
+    - Modifica el nav para que tenga los enlaces a las nuevas rutas creadas.
+    - Incluir un elemento de pie de página (<footer>) con tu información básica, información sobre el proyecto, navegación de las rutas principales y lo que quieras agregar.
 
-To learn more about Next.js, take a look at the following resources:
+3. Vista Personalizada en la Ruta Raíz
+    - Modifica el archivo app/page.js para crear una vista de página de inicio personalizada para tu proyecto, libre a que agregues lo que quieras.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Condición de entrega
+Entregar en un repositorio de GitHub.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
