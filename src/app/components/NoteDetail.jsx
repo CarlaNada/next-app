@@ -14,7 +14,7 @@ export default function NoteDetail ({ note }) {
       {/* Asi se comenta */}
       <section className='w-full min-h-64 my-8 p-10 rounded-lg flex flex-col bg-zinc-800 text-white justify-between'>
           <p className='text-lg font-semibold'>Ejemplo</p>
-          <pre className='text-sm text-white bg-black p-2'>
+          <pre className='text-sm text-white bg-black rounded p-2 overflow-x-auto'>
             <code>
               {note.ejemplo}
             </code>
